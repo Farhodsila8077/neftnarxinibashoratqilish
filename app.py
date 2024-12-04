@@ -24,4 +24,4 @@ if st.button("Bashorat qiling"):
         'Volume': [volume]
     })
     prediction = model.predict(input_data)[0]
-    st.success(f"Bashorat qilingan neft narxi (Close): ${prediction:.2f}")
+    st.success(f"Bashorat qilingan neft narxi : ${prediction:.2f}")
